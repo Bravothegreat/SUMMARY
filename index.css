@@ -1,0 +1,236 @@
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  3. Allow percentage-based heights in the application
+*/
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+}
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  6. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  7. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+/*
+  8. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
+section{
+  background-color: whitesmoke;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  position: relative;
+}
+
+.main_container{
+  width: 670px;
+  height: 350px;
+  background-color: white;
+  border: 1px solid wheat;
+  margin: 0 auto;
+  padding: 50px;
+  display: flex;
+}
+
+.container2{
+  display: flex;
+  margin: 0 auto;
+}
+
+.sub_container{
+  background-color: rgb(163, 19, 163);
+  width: 190px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 15px;
+  padding: 15px 20px 15px 20px;
+  
+  >
+  .innercircle{
+    width: 70px;
+    height: 150px;
+    border: 1px solid purple;
+    margin: 0 auto;
+    color: white;
+    border-radius: 10px;
+    background-color: purple;
+    border-radius: 50%;
+    margin-top: 10px;
+    
+  }
+ 
+  >
+ .innercircle span{
+    font-size: 2rem;
+    font-weight: bolder;
+  
+  }
+
+  >
+  h2{
+    color: white;
+    margin-top: 15px;
+    
+  }
+
+  >
+  p{
+    color: white;
+   
+  }
+
+}
+
+.sub_container2{
+  background-color: white;
+  border-bottom: white;
+  box-shadow: 0 4px 10px 3px rgba(0,0,0,0.2);
+ width: 230px;
+ display: flex;
+ flex-direction: column;
+justify-content: space-between;
+padding: 15px 5px 15px 15px;
+
+>
+div:nth-of-type(1){
+  border: 1px solid  rgb(226, 178, 178);
+  width: 200px;
+  background-color: rgb(226, 178, 178);
+ 
+}
+
+>
+div:nth-of-type(1) .reaction{
+ color: brown;
+}
+
+>
+div:nth-of-type(1) .fa-solid {
+  color: brown;
+  margin-right: 9px;
+  margin-left: 4px;
+}
+
+>
+div:nth-of-type(2){
+  background-color: rgb(250, 215, 149);
+  width: 200px;
+  border: 1px solid rgb(250, 215, 149);
+}
+
+>
+div:nth-of-type(2) .memory{
+  color: orange;
+}
+
+>
+div:nth-of-type(2) .fa-solid{
+  color: orange;
+  margin-right: 9px;
+  margin-left: 4px;
+}
+
+>
+div:nth-of-type(3){
+  background-color: rgb(226, 236, 226);
+  width: 200px;
+  border-radius: 1px solid rgb(226, 236, 226)  ;
+}
+
+>
+div:nth-of-type(3) .verbal{
+color: green;
+}
+
+>
+div:nth-of-type(3) .fa-solid{
+  color: green;
+  margin-right: 7px;
+  margin-left: 4px;
+}
+
+>
+div:nth-of-type(4){
+  background-color: rgb(190, 190, 230);
+  width: 200px;
+}
+
+>
+div:nth-of-type(4) .visual{
+ color: darkblue;
+}
+
+>
+div:nth-of-type(4) .fa-regular{
+  color: darkblue;
+  margin-right: 7px;
+  margin-left: 4px;
+}
+
+>
+
+button{
+  color: white;
+  background-color: rgb(48, 47, 47);
+  width: 195px;
+  border: 1px solid rgb(48, 47, 47);
+  border-radius: 20px;
+}
+
+
+}
+
+.word{
+  margin-left: 63px;
+}
+
+.words{
+ margin-left: 50px;
+}
+
+.wordss{
+  margin-left: 48px;
+}
+
